@@ -1,0 +1,36 @@
+/* first map styles */
+#container {
+  margin: auto;
+  max-width: 700px;
+}
+
+#mapid {
+  height: 400px;
+  width: 100%;
+  margin-top: 3rem;
+  border: 1px solid #999;
+}
+
+#words {
+  width: 80%;
+}
+
+body {
+  background: #ECECEC;
+  color: #000;
+}
+
+p {
+  font-family: 'Crimson Text', 'Trebuchet MS', serif;
+  font-size: 1.25rem;
+}
+
+h1, h3 {
+  font-family: 'Poppins', 'Palatino', 'Didot', sans-serif;
+}
+
+@media screen and (max-width: 600px ) {
+  #mapid {
+    height: 475px;
+  }
+}
