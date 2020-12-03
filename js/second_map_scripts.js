@@ -5,8 +5,10 @@ let mymap = true;
 if (x > 650) {
   mymap = L.map('mapid').setView([37.242437, -95.868468], 3.73);
 } else {
-  mymap = L.map('mapid').setView([37.242437, -95.868468], 3.4);
+  mymap = L.map('mapid').setView([37.242437, -95.868468], 3.40);
 }
+
+
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
