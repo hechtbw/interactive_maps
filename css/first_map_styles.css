@@ -34,4 +34,7 @@ h1, h3 {
   #mapid {
     height: 475px;
   }
+  #words, h1 {
+    padding-left: 1.5rem;
+  }
 }

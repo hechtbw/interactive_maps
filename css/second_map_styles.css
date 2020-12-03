@@ -30,8 +30,14 @@ h1, h3 {
   font-family: 'Poppins', 'Palatino', 'Didot', sans-serif;
 }
 
-@media screen and (max-width: 600px ) {
+
+
+
+ @media screen and (max-width: 600px ) {
   #mapid {
-    height: 475px;
+    height: 500px;
+  }
+  .text {
+    padding-left: 1.5rem;
   }
 }
